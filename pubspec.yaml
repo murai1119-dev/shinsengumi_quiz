@@ -3,7 +3,7 @@ description: "A new Flutter project."
 publish_to: 'none'
 
 # ★ビルド番号をさらに上げました
-version: 1.0.0+7
+version: 1.0.0+10
 
 environment:
   sdk: ^3.11.3
