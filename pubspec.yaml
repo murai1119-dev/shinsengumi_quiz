@@ -1,0 +1,37 @@
+name: shinsengumi_quiz
+description: "A new Flutter project."
+publish_to: 'none'
+
+# ★ビルド番号をさらに上げました
+version: 1.0.0+7
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.2.2
+  audioplayers: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+# ★アイコン設定：ここもシンプルに整理しました
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  # ★ assets/ とだけ書くことで、フォルダ内の全ファイルを自動認識させます
+  assets:
+    - assets/
